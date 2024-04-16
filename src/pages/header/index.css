@@ -1,0 +1,23 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1%;
+}
+.header__ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+.header__ul__li {
+  padding: 5px;
+}
+.header__ul__li a {
+  text-decoration: none;
+  color: black;
+}
+
+#page-title {
+  font-family: "Merienda";
+  font-weight: 300;
+}/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,29 @@
+@mixin flexcenter {
+  display: flex;
+  align-items: center;
+}
+
+.header {
+  @include flexcenter();
+  justify-content: space-around;
+  padding: 1%;
+
+  &__ul {
+    @include flexcenter();
+    list-style: none;
+
+    &__li {
+      padding: 5px;
+
+      & a {
+        text-decoration: none;
+        color: black;
+      }
+    }
+  }
+}
+
+#page-title {
+  font-family: "Merienda";
+  font-weight: 300;
+}
