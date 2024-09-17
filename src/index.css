@@ -5,6 +5,8 @@
 }
 
 body {
-  font-family: "Lato";
+  font-family: "Montserrat";
   min-height: 100vh;
+  padding: 1%;
+  background: linear-gradient(#ffffff 50%, #CBE4D6);
 }

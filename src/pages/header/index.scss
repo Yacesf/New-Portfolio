@@ -6,7 +6,6 @@
 .header {
   @include flexcenter();
   justify-content: space-around;
-  padding: 1%;
 
   &__ul {
     @include flexcenter();
@@ -14,16 +13,29 @@
 
     &__li {
       padding: 5px;
+    }
+  }
 
-      & a {
-        text-decoration: none;
-        color: black;
+  &__link {
+    @include flexcenter();
+
+    &__item {
+    padding: 5px;
+
+      & i {
+        font-size: 18px;
       }
     }
   }
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
 #page-title {
-  font-family: "Merienda";
-  font-weight: 300;
+  letter-spacing: 1px;
+  font-weight: 400;
+  font-size: 19px;
 }
